@@ -450,6 +450,9 @@ case $basic_machine in
 	| ymp-* \
 	| z8k-* | z80-*)
 		;;
+	# [Non_prefixed RISC-V compiler]
+	riscv-*)
+		;;
 	# Recognize the basic CPU types without company name, with glob match.
 	xtensa*)
 		basic_machine=$basic_machine-unknown
